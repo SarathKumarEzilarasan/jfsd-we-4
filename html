@@ -1,0 +1,937 @@
+<!DOCTYPE html> ---------> declaration defines that this document is an HTML5 document
+                            declaration represents the document type, and helps browsers to display web pages correctly.
+<html lang="en">
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------
+HTML is Not Case Sensitive
+Never Skip the End Tag
+Nested HTML Elements
+
+attributes
+<h1 id = "heading" >My First Heading</h1>
+
+The style Attribute
+<p style="color:red;">This is a red paragraph.</p>
+------------------------------------------------------------------------------------------------------------------------------
+HTML Headings
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+</body>
+</html>
+
+Headings Are Important
+Search engines use the headings to index the structure and content of your web pages.
+Users often skim a page by its headings. It is important to use headings to show the document structure.
+
+Bigger Headings
+<h1 style="font-size:60px;">Heading 1</h1>
+
+------------------------------------------------------------------------------------------------------------------------------
+HTML Paragraphs -> will appear in same line even if we have new lines
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser
+ignores it.
+</p>
+</body>
+</html>
+-------------------------------------------------------------------------
+HTML Line Breaks
+
+<p>This is<br>a paragraph<br>with line breaks.</p>
+-------------------------------------------------------------------------
+HTML Horizontal Rules
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>This is heading 2</h2>
+  <p>This is some other text.</p>
+  <hr>/////////////////////////////////////
+  <h2>This is heading 2</h2>
+  <p>This is some other text.</p>
+</body>
+</html>
+-------------------------------------------------------------------------
+
+The HTML <pre> Element -> for waiting proverb or poem
+
+  <!DOCTYPE html>
+  <html>
+  <body>
+
+  <p>The pre tag preserves both spaces and line breaks:</p>
+
+  <pre>
+     My Bonnie lies over the ocean.
+
+     My Bonnie lies over the sea.
+
+     My Bonnie lies over the ocean.
+
+     Oh, bring back my Bonnie to me.
+  </pre>
+
+  </body>
+  </html>
+--------------------------------------------------------------------------------------------------------------------------------------------------
+HTML Styles
+
+Background Color
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;"> /////// Background Color
+
+  <h1 style="color:blue;">This is a heading</h1> ////Text Color
+  <p style="color:red;">This is a paragraph.</p> ////Text Color
+  <h1 style="font-family:verdana;">This is a heading</h1> ////Fonts
+  <p style="font-family:courier;">This is a paragraph.</p> /////Fonts
+  <h1 style="text-align:center;">Centered Heading</h1> ////Text Alignment
+
+</body>
+</html>
+-------------------------------------------------------------------------
+Text Size
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+
+default size of all texts = 16px,
+% -> will resize the element based on the parent
+px -> will resize based on the pixels given
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="font-size:16px;">This is a heading</h1>
+<p style="font-size:200%;">This is a paragraph.</p>
+<p style="font-size:32px;">This is a paragraph.</p>
+<p >This is a  <a style="font-size:100%;">link</a> </p> /////////////////////// modify this to 200% -> equivalent to 32px since its parent is 16px
+<p style="font-size:32px;">This is a  <a style="font-size:200%;">link</a> </p>
+<p >This is a  <a style="font-size:100px;">link</a> </p>
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------
+HTML Text Formatting
+
+HTML <sub> Element
+
+  <!DOCTYPE html>
+  <html>
+  <body>
+
+  <p><b>This text is bold.</b></p>
+  <p><strong>This text is bold.</strong></p> ///////// browser will consider the content in this tag is more important
+  <p><i>This text is italic.</i></p>
+  <p><em>This text is emphasized</em></p> -> emphasized text
+  <p><small>This is some smaller text.</small></p>
+  <p>Do not forget to buy <mark>milk</mark> today.</p> -> highlighted text
+  <p>My favorite color is <del>blue</del> red.</p> -> strike a line through
+  <p>My favorite color is <del>blue</del> <ins>red</ins>.</p> -> text that has been inserted into a document. Browsers will usually underline inserted
+  <p>This is <sub>subscripted</sub> text.</p>
+  <p>This is <sup>superscripted</sup> text.</p>
+
+  </body>
+  </html>
+----------------------------------------------------------------------------------------------------------------------------------------
+HTML Quotation and Citation Elements
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Here is a quote from WWF's website:</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>  ////// Quotation
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>  //////abbreviation
+
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p> ///// Citation
+
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------
+HTML Comment Tag
+
+<!-- Write your comments here -->
+
+<!--
+<p>Look at this cool image:</p>
+<img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+
+<p>This <!-- great text --> is a paragraph.</p>
+----------------------------------------------------------------------------------------------------------------------------------------
+HTML Colors
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="background-color:DodgerBlue;">Hello World</h1>////////////////////background color
+<h1 style="color:Tomato;">Hello World</h1>////////////////////text color
+<h1 style="border:2px solid Tomato;">Hello World</h1>////////////////////border color
+<h1 style="background-color:rgb(255, 99, 71);">Hello World<</h1>
+<h1 style="background-color:#ff6347;">Hello World<</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">Hello World<</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1> //////opacity
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------
+HTML Links
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The target Attribute</h2>
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> ////////absolute url
+<p><a href="html_images.html">HTML Images</a></p> /////////////////////////////////relative url
+<p>If target="_blank", the link will open in a new browser window or tab.</p>
+
+
+<a href="mailto:someone@example.com">Send email</a> /////////////////////////////Link to an Email Address
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a> ///////// title as tooltip
+
+</body>
+</html>
+
+---------------------------------------------------------------------------------
+HTML Links - Create Bookmarks
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="#C4">Jump to Chapter 4</a></p>
+<p><a href="#C10">Jump to Chapter 10</a></p>
+
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 3</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C4">Chapter 4</h2> ////////////////////////// id
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 5</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 6</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 7</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 8</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 9</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C10">Chapter 10</h2> ////////////////////////// id
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 11</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 12</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 13</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 14</h2>
+<p>This chapter explains ba bla bla</p>
+
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------
+HTML Images
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<img src="img_chania.jpg" alt="Flowers in Chania" width="460" height="345">
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;"> ////////Image Size - Width and Height
+<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;"> ////////Images in Another Folder
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com"> /////Images on Another Server/Website
+<p>
+<img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;"> ////////// float right or left
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+</p>
+<a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;"></a> ///////Use an Image as a Link
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+------------------------------------------------------------------------
+HTML Background Images
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Background Image</h2>
+
+<p>A background image for a p element:</p>
+
+<p style="background-image: url('img_girl.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;background-size: 100% 100%;">
+You can specify background images<br>
+for any visible HTML element.<br>
+In this example, the background image<br>
+is specified for a p element.<br>
+By default, the background-image<br>
+will repeat itself in the direction(s)<br>
+where it is smaller than the element<br>
+where it is specified. (Try resizing the<br>
+browser window to see how the<br>
+background image behaves.
+</p>
+
+</body>
+</html>
+------------------------------------------------------------------------
+HTML <picture> Element
+
+The HTML <picture> element allows you to display different pictures for different devices or screen sizes.
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+  <h2>The picture Element</h2>
+
+  <picture>
+    <source media="(min-width: 650px)" srcset="img_food.jpg">
+    <source media="(min-width: 465px)" srcset="img_car.jpg">
+    <img src="img_girl.jpg" style="width:auto;">
+  </picture>
+  </body>
+  </html>
+------------------------------------------------------------------------------------------------------------------------------------------------
+HTML Favicon
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="smiley.gif">
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+HTML Styles - CSS
+
+Inline CSS
+
+<h1 style="color:blue;">A Blue Heading</h1>
+-------------------------------------------------------------------------
+Internal CSS
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+-------------------------------------------------------------------------
+
+External CSS
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+--------------------------------------------
+styles.css file
+
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+--------------------------------------------
+Link to External CSS
+
+<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+HTML Tables
+
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h2>A basic HTML table</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+------------------------------------------------------
+Collapsed Table Borders
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;/////////////////////
+}
+------------------------------------------------------
+Style Table Borders
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;/////////////////////
+}
+------------------------------------------------------
+Round Table Borders
+
+table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;//////////////////////////////////////////
+}
+------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+}
+</style>
+<body>
+
+<h2>Set the first column to 70% of the table width</h2>
+
+<table style="width:100%">
+  <tr>
+    <th style="width:70%">Firstname</th> //////////////HTML Table Column Width
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr style="height:200px">/////////////////////// Row Height
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+</table>
+
+</body>
+</html>
+------------------------------------------------------
+Vertical Table Headers
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <td>Jill</td>
+    <td>Eve</td>
+  </tr>
+  <tr>
+    <th>Lastname</th>
+    <td>Smith</td>
+    <td>Jackson</td>
+  </tr>
+</table>
+------------------------------------------------------
+<table>
+  <tr>
+    <th colspan="2">Name</th>//////////// col span and row span
+  </tr>
+  <tr>
+    <td>Firstname</td>
+    <td>Lastname</td>
+  </tr>
+</table>
+
+------------------------------------------------------
+Cell spacing is the space between each cell.
+
+
+table {
+  border-spacing: 30px;
+}
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTML Lists
+
+
+Unordered HTML List
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>An unordered HTML list</h2>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<ol> ///////////////////////////////Ordered HTML List
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<dl>////////////////////////////////HTML Description Lists
+  <dt>Coffee</dt>//////////////////name
+  <dd>- black hot drink</dd>//////item
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+
+<ul style="list-style-type:disc;">////////////list-style-type:circle or list-style-type:square; or list-style-type:none;
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea  /////////////////       A list item (<li>) can contain a new list, and other HTML elements, like images and links, etc.
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+
+<ol type="1" start="50">///////////////////////////////////type="A" or type="a" or type="I" or type="i"
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTML Block and Inline Elements
+
+Block Elements
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p style="border: 1px solid black">Hello World</p>
+<div style="border: 1px solid black">Hello World</div>
+
+<p>This is an inline span <span style="border: 1px solid black">Hello World</span> element inside a paragraph.</p> ///// inline element
+
+</body>
+</html>
+
+---------------------------------------------------------------------------
+The <div> element is often used as a container for other HTML elements
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">
+    dark green</span> eyes.</p>
+</div>
+
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+HTML class Attribute -> Multiple HTML elements can share the same class.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+}
+
+.main {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Multiple Classes</h2>
+<p>Here, all three h2 elements belongs to the "city" class. In addition, London also belongs to the "main" class, which center-aligns the text.</p>
+
+<h2 class="city main">London</h2>
+<h2 class="city">Paris</h2>
+<h2 class="city">Tokyo</h2>
+
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+HTML id Attribute
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1 id="myHeader">My Header</h1>
+
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Layout
+
+https://www.w3schools.com/html/html_layout.asp -> show them this url
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+</head>
+<body>
+
+<h2>CSS Layout Float</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+symbols
+
+<!DOCTYPE html>
+<html>
+<<head>
+  <meta charset="UTF-8"> ////////// to help browser understand the character sets we are using
+</head>
+<body>
+
+<h1>HTML Entity Example</h1>
+
+<h2>The less-than sign: &lt;</h2>//////////&copy; &amp;[&]  &reg; [trademark]
+<h2>&#128517;</h2> ///////////////emoji &#128515;
+
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTML Forms -> An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br> ///////////////The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+  <input type="text" id="fname" name="fname" value="John"><br> ///////////If the name attribute is omitted, the value of the input field will not be sent at all.
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML"> ////////////radio ---> change to checkbox
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS"> ////////////radio ---> change to checkbox
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">////////////radio ---> change to checkbox
+  <label for="javascript">JavaScript</label>
+</form>
+
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
+
+-----------------------------------------------------------------------------
+method="get" or method="post"
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The method Attribute</h2>
+
+<p>This form will be submitted using the GET method:</p>
+
+<form action="/action_page.php" target="_blank" method="get" autocomplete="on"> ///////// change to post ---> autocomplete = off
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>After you submit, notice that the form values is visible in the address bar of the new browser tab.</p>
+
+</body>
+</html>
+-----------------------------------------------------------------------------
+
+The <select> Element
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The select Element</h2>
+
+<p>The select element defines a drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars">///////////// add size="2" --> specify the number of visible values ,,,,,, add [multiple] -> multi select
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <input type="submit">
+</form>
+
+
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>///////textarea
+  <br><br>
+  <input type="submit">
+</form>
+
+<button type="button" onclick="alert('Hello World!')">Click Me!</button> ////////////////// button
+
+
+</body>
+</html>
+----------------------------------------------------------------------------------------
+
+<fieldset>  <legend>  <datalist> -> self study
+
+----------------------------------------------------------------------------------------
+HTML Input Types
+
+
+
+  <!DOCTYPE html>
+  <html>
+  <body>
+
+  <h2>Password field</h2>
+
+  <form action="/action_page.php">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" id="pwd" name="pwd"><br><br> /////////////// password
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"> /////////////// date
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email"> ///////////////  email
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset"> ///////////////////////////// reset
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30"> //////////// number
+    <label for="vol">Volume (between 0 and 50):</label>
+    <input type="range" id="vol" name="vol" min="0" max="50"> ////////////// range bar
+    <label for="phone">Enter your phone number:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678"> ///////// phone number .... placeholder -> display this value
+  </form>
+
+  </body>
+  </html>
+----------------------------------------------------------------------------------------
+  HTML Input Attributes
+
+  already know "value"
+
+  <!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John" readonly><br> ///// readonly
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe" disabled><br><br> ////disabled
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" size="50"><br> //////////////// size of input values
+  <label for="pin">PIN:</label><br>
+  <input type="text" id="pin" name="pin" maxlength="4" size="40"><br><br>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required> ///////////////// required
+
+
+  <input type="submit" value="Submit">
+</form>
+
+<form action="/action_page.php" novalidate> ///////////////////// novalidate wont validate even though required is mentioned below for input
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email" required><br><br> //////// required
+  <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+https://www.w3schools.com/html/html_css.asp
+https://www.w3schools.com/html/html_links_colors.asp
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu
+https://www.w3schools.com/html/html_div.asp
+https://www.w3schools.com/html/html_scripts.asp
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3 [https://www.w3schools.com/html/html_responsive.asp]
